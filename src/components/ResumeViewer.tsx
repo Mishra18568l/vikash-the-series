@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { achievements, certifications, education, experience, profile, projects, skillCategories } from '../data/portfolio';
-import { EASE, Magnetic, SectionHeading } from './fx';
+import { EASE, SectionHeading } from './fx';
 
 /** THE FULL STORY — a designed resume preview plus view / download actions. */
-export default function ResumeSection({ onView }: { onView: () => void }) {
+export default function ResumeSection({}: { onView: () => void }) {
   return (
     <>
       <SectionHeading kicker="The screenplay" title="The Full Story" />
